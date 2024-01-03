@@ -31,7 +31,7 @@ export const Style = StyleSheet.create({
     },
     RegisterInput: {
         borderBottomWidth: 1,
-        width: '88%',
+        width: 330,
         padding: 17,
         marginTop: 30,
         color: 'white',
@@ -44,7 +44,7 @@ export const Style = StyleSheet.create({
         marginRight: -280,
     },
     RegisterButton: {
-        width: '70%',
+        width: 200,
         height: 44,
         backgroundColor: whiteGrayColor,
         marginTop: 30,
@@ -59,16 +59,21 @@ export const Style = StyleSheet.create({
         color: 'white',
         fontFamily: 'Avenir-BlackOblique',
         fontSize: 30,
-        fontWeight: 200
+        fontWeight: 400
     },
+    // forgetPassword: {
+    //     fontFamily: 'Avenir-BlackOblique',
+    //     fontSize: 100,
+    //     color: mainTwoColor
+    // },  
     LoginButtons: {
         width: '100%',
         height: 70,
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'row',
-        marginTop: 100,
-        marginBottom: -220
+        marginTop: 260,
+        marginBottom: -222
     },
     LoginButtonsLeft: {
         flex: 1,
