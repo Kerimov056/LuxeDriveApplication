@@ -17,29 +17,80 @@ export const Style = StyleSheet.create({
 
 
 
-    // centeredView: {
-    //     flex: 1,
-    //     justifyContent: 'center',
-    //     alignItems: 'center',
-    //     marginTop: 22,
-    // },
-    // modalText: {
-    //     marginBottom: 15,
-    //     textAlign: 'center',
-    // },
-    // modalView: {
-    //     margin: 20,
-    //     backgroundColor: 'white',
-    //     borderRadius: 20,
-    //     padding: 35,
-    //     alignItems: 'center',
-    //     shadowColor: '#000',
-    //     shadowOffset: {
-    //         width: 0,
-    //         height: 2,
-    //     },
-    //     shadowOpacity: 0.25,
-    //     shadowRadius: 4,
-    //     elevation: 5,
-    // },
+    centeredView: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: 22,
+    },
+    modalText: {
+        marginBottom: 15,
+        textAlign: 'center',
+    },
+    modalView: {
+        margin: 20,
+        backgroundColor: 'white',
+        borderRadius: 20,
+        padding: 35,
+        alignItems: 'center',
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 4,
+        elevation: 5,
+    },
+    accesView: {
+        width: 'auto',
+        height: 60,
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+    },
+    yesAcces: {
+        width: 'auto',
+        padding: 10,
+        marginRight: 20,
+        backgroundColor: '#10FFCB',
+        borderWidth: 1,
+        borderRadius: 24,
+        borderColor: '#06B791',
+        paddingLeft: 40,
+        paddingRight: 40
+    },
+    noAcces: {
+        width: 'auto',
+        padding: 10,
+        marginLeft: 20,
+        backgroundColor: '#F25555',
+        borderWidth: 1,
+        borderRadius: 24,
+        borderColor: '#B00C0C',
+        paddingLeft: 40,
+        paddingRight: 40
+    },
+    searchCityInput: {
+        width: '100%',
+        height: 60,
+        backgroundColor: '#eaeaea',
+        marginTop: 25,
+        borderBottomWidth: 5,
+        borderColor: '#B00C84',
+        paddingLeft: 15
+    },
+    searchCitybutton: {
+        width: '100%',
+        height: 30,
+        backgroundColor: '#09552A',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    searchCitybuttonText: {
+        color: 'white',
+        fontSize: 13,
+        fontWeight: 'bold',
+        fontFamily: 'Avenir-BlackOblique',
+    }
 });
