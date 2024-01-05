@@ -12,11 +12,9 @@ export const Style = StyleSheet.create({
     },
     map: {
         width: '100%',
-        height: '100%',
+        // height: '50%',
+        // height: '100%', helelik
     },
-
-
-
     centeredView: {
         flex: 1,
         justifyContent: 'center',
@@ -53,7 +51,7 @@ export const Style = StyleSheet.create({
         width: 'auto',
         padding: 10,
         marginRight: 20,
-        backgroundColor: '#10FFCB',
+        backgroundColor: '#0ED47B',
         borderWidth: 1,
         borderRadius: 24,
         borderColor: '#06B791',
@@ -91,6 +89,34 @@ export const Style = StyleSheet.create({
         color: 'white',
         fontSize: 13,
         fontWeight: 'bold',
-        fontFamily: 'Avenir-BlackOblique',
+        // fontFamily: 'Avenir-BlackOblique',
+    },
+
+    //Search cars response 
+    SearchCarsResponse: {
+        width: '100%',
+        minHeight: 500,
+        backgroundColor: whiteGrayColor,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    SearchCarsResponseImageBackground: {
+        objectFit: 'cover',
+        width: '100%',
+        height: '100%',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    SearchCarsResponseIn: {
+        width: '92%',
+        height: '100%',
+    },
+    notBoundCar: {
+        color: 'white',
+        fontSize: 33,
+        fontWeight: 'bold',
+        // fontFamily: 'Avenir-BlackOblique',
+        alignSelf: 'center',
+        marginTop: '30%'
     }
 });
